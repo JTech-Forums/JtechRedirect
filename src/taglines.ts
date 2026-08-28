@@ -127,9 +127,11 @@ export const TAGLINES: readonly string[] = [
   "Vendor said impossible. Page 3 says otherwise.",
   "The upgrade guide nobody was paid to write.",
   "The good stuff is in the replies to the replies.",
+  "Meh is the answer to anything and everything.",
   "Buried on page four: the actual fix.",
   "Off-topic by page two. On-topic by page nine.",
   "Undocumented flag, thoroughly documented.",
+  "flipphoneguy exploits your hardware from his phone.",
   "Report button works. Patience varies.",
   "Merged into a thread from 2011.",
   "Mods: unpaid, unthanked, unbothered.",
@@ -139,6 +141,7 @@ export const TAGLINES: readonly string[] = [
   "Google sends you here. So does everyone.",
   "Rule one: search. Rule two: nobody searches.",
   "The tutorial is a forum post from 2013.",
+  "flipphoneguy probably never had a flip-phone.",
 ];
 
 if (TAGLINES.length === 0) {
