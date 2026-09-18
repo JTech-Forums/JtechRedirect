@@ -19,8 +19,15 @@ export const SITE: SiteConfig = {
   description: "Where the thread is the documentation.",
 };
 
+/**
+ * The apex now serves Discourse; the marketing page it used to serve lives
+ * at /home. These domains are marketing domains, so that is where both the
+ * button and the canonical point.
+ */
+export const SITE_PATH = "/home";
+
 /** The site every copy of this page sends its visitors and its ranking to. */
-export const SITE_URL = `https://${SITE.domain}`;
+export const SITE_URL = `https://${SITE.domain}${SITE_PATH}`;
 
 /**
  * Where build outputs like the social card are fetched from.
